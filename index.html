@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock_Paper_Scissor</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+        <div class="display-board">
+            <div class="game-options">
+                <p>ROCK</p>
+                <p>PAPER</p>
+                <P>SCISSOR</P>
+            </div>
+            <div class="score-board">
+                <div class="player-score">
+                    <p>Your Score</p>
+                    <p id="plyr-score">0</p>
+                </div>
+                <div class="comp-score">
+                    <p>Computer Score</p>
+                    <p id="com-score">0</p>
+                </div>
+            </div>
+        </div>
+        <div class="game-con">
+            <div class="picked-ops">
+                <p class="user">You Picked</p>
+                <p class="computer">Computer Picked</p>
+            </div>
+            <div class="choice">
+                <div class="scissor con">
+                    <div class="item">
+                        <img src="image/scissor 1.png" alt="">
+                    </div>
+                </div>
+                <div class="rock con">
+                    <div class="item">
+                        <img src="image/rock 1.png" alt="">
+                    </div>
+                </div>
+                <div class="paper con">
+                    <div class="item">
+                        <img src="image/paper 1.png" alt="">
+                    </div>
+                </div>
+                <div class="scissor machine">
+                    <div class="item">
+                        <img src="image/scissor 1.png" alt="">
+                    </div>
+                </div>
+                <div class="rock machine">
+                    <div class="item">
+                        <img src="image/rock 1.png" alt="">
+                    </div>
+                </div>
+                <div class="paper machine">
+                    <div class="item">
+                        <img src="image/paper 1.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="btn-div">
+                <button class="btn-rule">Rules</button>
+            </div>
+            <div class="rule-list">
+                <h2>Game Rules</h2>
+                <ul class="game-rules">
+                    <li>
+                        <p>Rock beats scissors, scissors beat
+                        paper and paper beat rock</p>
+                    </li>
+                    <li>
+                        <p>Agree ahead of time whether you'll
+                            count off rock,paper,scissors.shoot or just
+                            "rock,paper,scissors."
+                        </p>
+                    </li>
+                    <li>
+                        <p>Use rock,paper,scsoors to settle
+                            minor decisions or simply play to
+                            pass the time
+                        </p>
+                    </li>
+                    <li>
+                        <p>If both players lay down the same hand each player lays down
+                            another hand
+                        </p>
+                    </li>
+                </ul>
+                <button class="close" id="close">Close</button>
+            </div>
+            <div class="win-model">
+                <h1 class="winner">You win</h1>
+                <button class="play" id="play-again">Play Again</button>
+            </div>
+        </div>
+        <script src="index.js"></script>
+</body>
+</html>
